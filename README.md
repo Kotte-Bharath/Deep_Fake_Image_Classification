@@ -20,3 +20,17 @@ The model uses the VGG16 architecture with added layers for classification:
 **Input Layer**: Pre-trained VGG16 layers.
 **Custom Layers**: Additional Dense, Dropout, and Activation layers for fine-tuning.
 **Output Layer**: Sigmoid activation function for binary classification.
+
+## Results
+**Accuracy**: Achieved an accuracy of around 85% using the VGG16 model after fine-tuning.
+**Loss**: The final model showed minimal loss on the validation set.
+
+## Technologies Used
+**Python**: Core programming language.
+**TensorFlow/Keras**: For building and training the deep learning model.
+
+## Future Work
+**Improve Model Accuracy**: Experiment with other pre-trained models (ResNet, EfficientNet) to boost performance.
+**More Azure Services**: Utilize Azure Face API and AI Language Services to add further layers of detection and analysis.
+**Real-time Deepfake Detection**: Implement real-time detection of deep fakes in video streams.
+
